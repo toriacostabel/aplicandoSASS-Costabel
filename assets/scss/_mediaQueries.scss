@@ -1,0 +1,19 @@
+/*------------------media------------------*/
+@media(max-width:960px){
+    .serviciosContainer{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        width: 94%;
+        margin: 3%;
+    }
+    .servicio{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+}
+@media(max-width:580px){
+    .servicio{
+        flex-direction: column;
+    }
+}
